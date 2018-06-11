@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="addvalue-gmbh"
+LABEL maintainer="addvalue"
 LABEL email="info@addvalue.de"
 LABEL website="addvalue.de"
 LABEL project_link="https://github.com/addvalue-gmbh/addvalue-elixir"
