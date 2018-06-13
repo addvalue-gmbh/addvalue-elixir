@@ -15,6 +15,7 @@ RUN apt-get install elixir -y
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install -y nodejs
+RUN npm i npm@latest -g
 
 ENV DEBIAN_FRONTEND noninteractive
 
